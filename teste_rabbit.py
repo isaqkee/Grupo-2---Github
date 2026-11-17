@@ -1,8 +1,8 @@
 import pika
 
 # Cole sua URL do CloudAMQP aqui embaixo
-amqp_url = 'amqps://iprmcicd:***@fuji.lmq.cloudamqp.com/iprmcicd'
-
+# amqp_url = 'amqps://iprmcicd:***@fuji.lmq.cloudamqp.com/iprmcicd'
+amqp_url = 'amqps://tkignjsf:L3GohvHuWPA6w5PeVpSvjLQspXa9kfcx@jackal.rmq.cloudamqp.com/tkignjsf'
 params = pika.URLParameters(amqp_url)
 connection = pika.BlockingConnection(params)
 channel = connection.channel()
